@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!--=== Coding by CodingLab | www.codinglabweb.com === -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="tugas2.css">
+     
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--<title>Responsive Regisration Form </title>--> 
+</head>
+<body>
+    <div class="container">
+        <header>PMB Institut Teknologi Kalimantan</header>
+
+        <form name="testing-form" action="" method="post" autocomplete="off">
+            <div class="form first">
+                <div class="informasi pribadi">
+                    <span class="title">Informasi Pribadi</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Nama Lengkap</label>
+                            <input type="text" id="nama" placeholder="Masukkan nama lengkap" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Usia</label>
+                            <input type="number" id="usia" placeholder="Masukkan usia" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Tanggal Lahir</label>
+                            <input type="date" id="ttl" placeholder="Masukkan tanggal lahir" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input type="text" id="email" placeholder="Masukkan alamat surel" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Nomor Telepon</label>
+                            <input type="number" id="telp" placeholder="Masukkan nomor telepon" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Jenis Kelamin</label>
+                            <select required>
+                                <option disabled selected>Pilih jenis kelamin</option>
+                                <option>Laki-laki</option>
+                                <option>Perempuan</option>
+                                <option>Lainnya</option>
+                            </select>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="informasi mahasiswa">
+                    <span class="title">Informasi Mahasiswa</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Nomor Pendaftaran</label>
+                            <input type="number" id="nomor" placeholder="Masukkan nomor pendaftaran" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Prodi</label>
+                            <select required>
+                                <option disabled selected>Pilih prodi</option>
+                                <option>Fisika</option>
+                                <option>Teknik Elektro</option>
+                                <option>Teknik Perkapalan</option>
+                                <option>Informatika</option>
+                                <option>Desain Komunikasi dan Visual</option>
+                            </select>
+                            </div>
+
+                        <div class="input-field">
+                            <label>Tahun Lulus</label>
+                            <select required>
+                                <option disabled selected>Pilih tahun</option>
+                                <option>2020</option>
+                                <option>2021</option>
+                                <option>2022</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Asal Sekolah</label>
+                            <input type="text" id="sekolah" placeholder="Masukkan asal sekolah" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Nominal UKT</label>
+                            <input type="number" id="" placeholder="Masukkan nominal UKT" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Bukti Pembayaran</label>
+                            <input type="file" accept="image/*" required>
+                        </div>
+                    </div>
+                        
+                        <button class="sumbit">
+                            <span class="btnText">Submit</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+                </div> 
+            </div>
+        </form>
+    </div>
+
+    <!--<script src="tugas2.js"></script>-->
+</body>
+</html>
